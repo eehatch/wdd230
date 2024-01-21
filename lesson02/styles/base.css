@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond&display=swap');
+
+body{
+    font-size: 18px;
+    font-family:'Bebas Neue', 'Cormorant Garamond', helvetica, sans-serif;
+}
+header{
+    background-color: darkolivegreen;
+    color: white;
+    padding: 1em;
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+main{
+    max-width: 700%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color:lavenderblush ;
+    align-content: center;
+    text-align: center;
+}
+main section{
+    margin: 0.6rem;
+    border: 1px solid darkolivegreen;
+    padding: 0 1rem;
+}
+.images{
+    max-width: 400px;
+    align-content: center;
+    margin: 0 auto;
+    display: block;
+}
+h2{
+    background-color: olivedrab;
+    color: white;
+}
+p{
+    font-family: 'Cormorant Garamond', helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+
+@media only screen and (min-width: 38em){
+    main{
+        grid-template-columns: 1fr 1fr;   
+    }
+    section{
+		grid-column: span 2;
+        display: block;
+	}
+    .images{
+        width: 100%;
+        height: auto;
+        border: 1px solid darkolivegreen;
+    }
+}
+
+
+@media only screen and (min-width: 60em){
+    
+}

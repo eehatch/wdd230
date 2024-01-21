@@ -33,12 +33,6 @@ article p {
 	text-align: justify;
 }
 
-.callout {
-	color: white;
-	background-color: #702963;
-    padding: 1em;
-}
-
 footer {
 	margin-top: 1rem;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
