@@ -7,7 +7,6 @@ body{
 header{
     background-color: darkolivegreen;
     color: white;
-    padding: 1em;
     max-width: 90%;
     text-align: center;
     margin: 0 auto;
@@ -23,7 +22,6 @@ main{
 main section{
     margin: 0.6rem;
     border: 1px solid darkolivegreen;
-    padding: 0 1rem;
     align-content: center;
     text-align: center;
 }
