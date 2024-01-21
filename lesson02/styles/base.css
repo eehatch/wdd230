@@ -8,23 +8,24 @@ header{
     background-color: darkolivegreen;
     color: white;
     padding: 1em;
-    max-width: 700px;
+    max-width: 90%;
     text-align: center;
     margin: 0 auto;
 }
 main{
-    max-width: 700%;
+    max-width: 90%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
     background-color:lavenderblush ;
-    align-content: center;
-    text-align: center;
+    
 }
 main section{
     margin: 0.6rem;
     border: 1px solid darkolivegreen;
     padding: 0 1rem;
+    align-content: center;
+    text-align: center;
 }
 .images{
     max-width: 400px;
@@ -40,15 +41,26 @@ p{
     font-family: 'Cormorant Garamond', helvetica, sans-serif;
     font-size: 1.5em;
 }
+main section:nth-child(2) {
+	display: none;
+	margin: 0.5rem;
+}
 
 
-@media only screen and (min-width: 38em){
+@media only screen and (min-width: 30em){
     main{
         grid-template-columns: 1fr 1fr;   
     }
-    section{
+    /* section{
 		grid-column: span 2;
         display: block;
+	} */
+    main section:nth-child(2) {
+		display: block;
+	}
+
+	main section:nth-child(3) {
+		grid-column: span 2;
 	}
     .images{
         width: 100%;
@@ -58,6 +70,20 @@ p{
 }
 
 
-@media only screen and (min-width: 60em){
-    
+@media only screen and (min-width: 600px){
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    main section:nth-child(1) {
+        grid-column: 1/2;
+    }
+      main section:nth-child(2) {
+        grid-column: 2/3;
+          grid-row: 1/2;
+    }
+      /*************************************/
+  
+      main section:nth-child(3) {
+          grid-column: span 1;
+      }
 }
