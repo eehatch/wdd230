@@ -69,7 +69,7 @@ footer{
     text-align: center;
 }
     
-@media screen and (min-width: 800px){
+@media screen and (min-width: 37.5em){
     main{
         max-width: 1000px;
         margin: auto;
@@ -141,4 +141,27 @@ footer{
         color: black;
         text-align: center;
     }
+    #menu{
+        display: none;
+    }
+
+    iframe{
+        grid-column: span 2;
+        padding-bottom: 10px;
+    }
+
+    .navigation{
+        flex-direction: row;
+    }
+    .navigation a{
+        display: block;
+        flex: 1 1 100%;
+    }
+    /* }
+    .stuff {
+		margin: 1rem auto;
+	} */
 }
+
+    
+
