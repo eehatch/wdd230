@@ -157,6 +157,38 @@ footer{
         display: block;
         flex: 1 1 100%;
     }
+    .hero {
+        margin: 10px auto;
+        position: relative;
+        border: 1px solid rgba(0,0,0,.1);
+        max-width: 100%;
+        height: auto;
+    }
+    .hero img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .herolabel {
+        position: absolute;
+        top: 500px;
+        left: 30%;
+        background: radial-gradient(#fff, darkolivegreen);
+        border: 1px solid darkolivegreen;
+        padding: 1.5rem;
+        box-shadow: 0 0 3rem #fff;
+        opacity: 0.75;
+    }
+    
+    .herolabel p {
+        margin: 0;
+        padding: .25rem;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+    
 }
 
     
