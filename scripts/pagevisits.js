@@ -5,7 +5,7 @@ let numberVisits = Number(window.localStorage.getItem("numberVisits-ls")) || 0;
 if(numberVisits !== 0) {
     pageVisits.textContent = numberVisits;
 } else {
-    pageVisits.textContent = 'Welcome to our page!!';
+    pageVisits.textContent = 'This is your first visit!!';
 }
 
 numberVisits++;
