@@ -39,13 +39,10 @@ document.addEventListener("DOMContentLoaded", function () {
 	form.addEventListener("submit", handleSubmit);
 });
 
-const rangevalue = document.getElementById("rating");
-const range = document.getElementById("r");
+const range1 = document.getElementById("range");
 
 // RANGE event listener
-range.addEventListener('change', displayRatingValue);
-range.addEventListener('input', displayRatingValue);
+range1.addEventListener('change', displayRatingValue);
+range1.addEventListener('input', displayRatingValue);
 
-function displayRatingValue() {
-    rangevalue.innerHTML = range.value;
-}
+

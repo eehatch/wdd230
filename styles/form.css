@@ -1,0 +1,59 @@
+#formmessage {
+	visibility: none;
+	margin: 10px;
+	padding: 0.5rem;
+	color: red;
+}
+#range {
+	width: 180px;
+	margin-bottom: 0;
+}
+#rangevalue {
+	font-size: 2rem;
+	color: navy;
+}
+
+#rangevalues {
+	display: flex;
+	margin: 0 0 0 25px;
+	width: 200px;
+}
+#rangevalues option {
+	flex: 1 1 auto;
+}
+.f1 fieldset{
+    margin: 2rem 0;
+    border: 2px solid darkgrey;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+.f1 div {
+    padding-top: 1rem;
+    color: blue;
+    font-size: .9rem;
+}
+.f1 input[type="text"],
+.f1 input[type="password"],
+.f1 input[type="email"]
+{
+    background-color: #eee;
+    display: block;
+    border: solid 1px gray;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none ;
+}
+.f1 input:required{
+    border-left: solid 8px red;
+}
+.f1 input:required:valid{
+    border-left: solid 8px olivedrab;
+}
+
+label {
+	display: block;
+	font-weight: 700;
+}

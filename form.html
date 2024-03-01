@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="author" content="Emily Hatch">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"    content="WDD 230 - Creating and formatting a form for a webpage.">
     <link rel="stylesheet" href="styles/form.css">
-    <title>Document</title>
+    <title>Emily Hatch - WDD 230 - Forms</title>
 </head>
 <body>
     <header>
@@ -22,19 +23,33 @@
         </nav>
     </header>
     <main>
-        <div id="formmessage">
+        <h1>Review Submission</h1>
+        <div id="formmessage"></div>
         <form method="get" action="record.html" class="f1">
             <fieldset>
                 <label>Username* <input id="username" type="text" name="username" required></label>
                 <label>Password* <input id="password" type="password" name="password" required></label>
                 <label>Re-enter Password* <input id="password2" type="password" name="password2" required></label>
                 <label>Email* <input type="email" name="email" id="email" placeholder="someone@byui.edu" pattern="[a-zA-Z0-9_.\-]+@byui.edu" required></label>
-                <label>Page Rating <input type="rating" id="rating" name="rating" min="1" max="10" step="1"> </label>
-                <div id="rangevalue">1</div>
+                <div id="rangevalue"></div>
+                <label for="range">Page Rating <input type="range" id="rating" name="rating" min="1" max="10" value="1" step="1"> </label>
+                <datalist id="rangevalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+                <div id="rangevalue"></div>
             </fieldset>
             <input type="submit" value="Enter Rating">
         </form>
-        </div>
+        
     </main>
     <footer>
         <p>Emily Hatch 2024&copy; Rexburg, ID</p>
