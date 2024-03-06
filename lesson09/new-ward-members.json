@@ -1,0 +1,25 @@
+{
+   "wardInformation": {
+    "familyName" : "Smith",
+    "dateMovedIn" : "2023-4-12",
+    "numberOfPeople" : 3,
+    "bishopVisited" : true,
+    "familyMembers" : [
+      {
+        "name" : "Dixon Smith",
+        "gender" : "Male",
+        "birthday" : "1985-05-20"
+      },
+      {
+        "name" : "Michelle Smith",
+        "gender" : "Female",
+        "birthday" : "1985-04-04"
+      },
+      {
+        "name" : "Megan Smith",
+        "gender" : "Female",
+        "birthday" : "2001-08-22"
+      }
+    ]
+    }
+  }
