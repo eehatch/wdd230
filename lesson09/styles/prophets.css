@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#cards{
+    text-align: center;
+    background-color: lavenderblush;
+    border: 3px solid purple;
+    margin: 1rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1em;
+}
+
+footer{
+    text-align: center;
+    font-size: 1.5;
+    padding: 1rem;
+}
+
