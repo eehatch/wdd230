@@ -1,0 +1,80 @@
+{
+   "lessons": [
+    {
+        "lesson": "01",
+        "links": [
+        {
+            "url":"lesson01/media-query.html",
+            "title":"Media Queries"
+        },
+        {
+            "url":"lesson01/holygrail.html",
+            "title":"Holy grail"
+        }
+    ]
+    },
+    {
+        "lesson":"02",
+        "links" : [
+            {
+                "url":"lesson02/design-principles.html",
+                "title":"Design Principles Document"
+            }
+        ]
+    },
+    {
+        "lesson":"03",
+        "links": [
+            {
+                "url":"lesson03/chamber-site-plan.html",
+                "title":"Chamber Site Plan"
+            }
+        ]
+    },
+    {
+        "lesson":"04",
+        "links": [
+            {
+                "url":"https://codepen.io/Emily-Hatch/pen/zYbWeNa",
+                "title":"CSS Pseudo-class"
+            }
+        ]
+    },
+    {
+        "lesson":"05",
+        "links": [
+            {
+                "url":"lesson05/bom.html",
+                "title":"Book of Mormon Favorite Chapters Application"
+            }
+        ]
+    },
+    {
+        "lesson":"06",
+        "links": [
+            {
+                "url":"lesson06/responsive-images.html",
+                "title":"Responsive Images"
+            }
+        ]
+    },
+    {
+        "lesson":"07",
+        "links": [
+            {
+                "url":"lesson07/lazyload.html",
+                "title":"Lazy Loading"
+            }
+        ]
+    },
+    {
+        "lesson":"08",
+        "links": [
+            {
+                "url":"lesson08/tablebuild.html",
+                "title":"Book of Mormon Local Storage"
+            }
+        ]
+    }
+   ]
+} 
