@@ -75,6 +75,15 @@
                 "title":"Book of Mormon Local Storage"
             }
         ]
+    },
+    {
+        "lesson":"08",
+        "links": [
+            {
+                "url":"lesson08/tablebuild.html",
+                "title":"Book of Mormon Local Storage"
+            }
+        ]
     }
    ]
 } 
