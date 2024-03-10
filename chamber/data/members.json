@@ -1,0 +1,60 @@
+{
+    "companies":[
+        {
+            "names": "BECU",
+            "addresses": "26710 Maple Valley Black Diamond RD SE #F600 Maple Valley WA 98038",
+            "phone": "206-439-7890",
+            "url": "https://www.becu.org/locations/Maple-Valley",
+            "membership": "level 1",                    
+            "logo":"chamber/images/becu.png"
+        },
+        {
+            "names": "MultiCare Health System",
+            "addresses": "24080 SE Kent Kangley RD Maple Valley WA 98038",
+            "phone": "425-423-1310",
+            "url": "http://www.multicare.org/",
+            "membership": "level 2",                    
+            "logo":"chamber/images/multiCare.png"
+        },
+        {
+            "names": "OnMerit Marketing",
+            "addresses": "P.O. Box 313 Maple Valley Washington 98038",
+            "phone": "425-654-1814",
+            "url": "https://www.onmeritmarketing.com/",
+            "membership": "level 1",                    
+            "logo":"chamber/images/onMerit.jpeg"
+        },
+        {
+            "names": "Wilderness Auto Service & Chevron",
+            "addresses": "23701 Maple Valley HWY SE Maple Valley WA 98038",
+            "phone": "425-432-1636",
+            "url": "http://www.wildernessautoservice.com/",
+            "membership": "level 1",                    
+            "logo":"chamber/images/AutoService.jpeg"
+        },
+        {
+            "names": "4 Corners Self Storage",
+            "addresses": "24215 SE 271st PL Maple Valley WA 98038",
+            "phone": "425-433-1133",
+            "url": "http://www.4cornersselfstorage.com/",
+            "membership": "level 1",                    
+            "logo":"chamber/images/storage.jpeg"
+        },
+        {
+            "names": "Cedar River Law",
+            "addresses": "PO Box 1470 Maple Valley WA 98038",
+            "phone": "425-413-0936",
+            "url": "http://www.cedarriverlaw.com/",
+            "membership": "level 1",                    
+            "logo":"chamber/images/riverLaw.png"
+        },
+        {
+            "names": "Maple Valley Pediatric Therapy",
+            "addresses": "22443 SE 240th ST, Ste 206 Maple Valley WA 98038",
+            "phone": "425-358-3070",
+            "url": "http://www.mvpedtherapy.com/",
+            "membership": "level 3",                    
+            "logo":"chamber/images/mvped.png"
+        }
+    ]
+}
