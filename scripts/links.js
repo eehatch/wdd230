@@ -3,13 +3,17 @@ const linksURL = "https://eehatch.github.io/wdd230/data/links.json";
 const lists = document.querySelector('#links');
 
 async function getLinks(){
-    const response = await fetch(linksURL);
-    const data = await response.json();
-    displayLinks(data.lessons);
+    try {
+        const response = await fetch(linksURL);
+        const data = await response.json();
+        displayLinks(data.lessons);
+    } catch (error) {
+        console.error('Error fetching links:', error);
+    }
 }
 getLinks();
 
-const displayLinks = (weeks) => {
+function displayLinks(weeks) {
     weeks.forEach((lesson) => {
         const list = document.createElement('li');
 
@@ -25,7 +29,7 @@ const displayLinks = (weeks) => {
             list.appendChild(link);
 
             if (index < lesson.links.length -1 && list.childElementCount > 0) {
-                var space = document.createTextNode('|');
+                var space = document.createTextNode('| ');
                 list.appendChild(space);
             }
         });
