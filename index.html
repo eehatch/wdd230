@@ -25,7 +25,7 @@
             <a href="lesson03/chamber-site-plan.html">Site Plan</a>
             <a href="chamber/index.html">Chamber</a>
             <a href="https://www.byui.edu/">BYU-Idaho</a>
-            <a href="/lesson05/bom.html">Scripture</a>
+            <a href="lesson05/bom.html">Scripture</a>
             <a href="images/landscape.webp">WebP</a>
         </nav>
     </header>
@@ -58,11 +58,15 @@
         <section class="card">
             <h3>Information</h3>
             <ul id ="information">
-                <li>This is a placeholder for information about the weather</li>
-                <li>And any other information that will be added to this page</li>
-                <li><span class = "label">Number of Visits:</span><span class="visits"></span></li>
+                <li><h4 id="location">Location</h4></li>
+                <li><h4 id="current-temp"></h4></li>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+                <li><h4 id="desc"></h4></li>
+                <li>Number of Visits: <span class = "visits"></span></li>
             </ul>
-            
         </section>
 
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21560.615661242406!2d-122.04162785628905!3d47.36949740040896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906011c401012d%3A0xf2e18c3173574e6c!2sMaple%20Valley%2C%20WA%2098038!5e0!3m2!1sen!2sus!4v1706148967274!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -73,5 +77,6 @@
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/pagevisits.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
